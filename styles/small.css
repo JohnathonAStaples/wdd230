@@ -1,0 +1,24 @@
+.church-img{
+    display: flex;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: lightseagreen;
+    color: black;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
+    
+
+}
+
+footer {
+    background-color: lightseagreen;
+    color: black;
+    text-align: center;
+    margin:auto;
+    border-radius: 25px;
+    }
