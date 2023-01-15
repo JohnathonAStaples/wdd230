@@ -1,0 +1,86 @@
+body {
+    font-family: 'Josefin Slab', serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+header, footer {
+
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Inria Serif', serif;
+    margin: 1rem auto;
+    border: 5px solid rgb(59, 106, 206);
+    padding: 0.5rem;
+    background-color: rgb(32, 154, 158);
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Inria Serif', serif;
+    margin: 1rem auto;
+    border: 5px solid rgb(59, 106, 206);
+    padding: 0.5rem;
+    background-color: rgb(32, 154, 158);
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+}
+
+section {
+
+    max-width: 400px;
+    margin: 1rem auto;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: aquamarine;
+    column-gap: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+section2 {max-width: 400px;
+    margin: 1rem auto;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: aquamarine;
+    column-gap: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+section3 {max-width: 400px;
+    margin: 1rem auto;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: aquamarine;
+    column-gap: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Inria Serif', serif;
+    max-width: 348px;
+    margin: 1rem auto;
+    border: 5px solid rgb(59, 106, 206);
+    padding: 0.5rem;
+    background-color: rgb(32, 154, 158);
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+
+}

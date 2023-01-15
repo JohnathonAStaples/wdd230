@@ -1,0 +1,3 @@
+@media only screen and (min-width: 75em) {
+    main {grid-template-columns: 1fr 1fr 1fr;}
+}
