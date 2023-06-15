@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-height: max-content; */
+  border: #9fa093 solid 10px;
+  background-color: #442655;
+}
+
+header {
+  text-align: center;
+  background-color: #9fa093;
+  color: #442655;
+}
+
+.largeLogo {
+  display: flex;
+}
+
+.facebook2 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.twitch2 {position: absolute;
+  top: -9999px;
+  left: -9999px;
+
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px 10px 10px 10px;
+}
+
+main input {
+  text-indent: 10px;
+}
+
+.spotlight {
+  grid-area:5/2/5/2; 
+  border: 15px solid #9fa093;
+  margin-top: 10px;
+}
+
+.logo {
+  margin: 10px 0 0 10px;
+  width: 100px;
+  height: 100px;
+}
+.facebook {
+  margin: 10px 0 0 0;
+  width: 35px;
+}
+
+.twitch {
+  margin: 10px 10px 10px 10px;
+  width: 35px;
+}
+
+.small {
+  display: flex;
+}
+
+.containerHero {
+
+  color: #442655;
+  grid-area: 1 /1 / 1 / 3;
+}
+
+.containerEvent {
+  margin-top: 5px;
+  color: #9fa093;
+  grid-area: 2/ 1/ 2/ 3;
+}
+
+.containerWeather {
+  grid-area: 3/1/3/3;
+}
+
+.containerNews{
+  grid-area: 4/1/4/3;
+}
+
+
+
+
+.event,
+.join,
+.weather,
+.news,
+.spot1,
+.spot2,
+.hero {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.containerHero,
+.containerJoin,
+.containerEvent,
+.containerWeather,
+.containerNews,
+.spotlight {
+  position: relative;
+  text-align: center;
+}
+
+.newsText {
+  color: whitesmoke;
+}
+
+.heroText,
+.eventText,
+.joinText,
+.weatherText,
+.newsText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spot1Text {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.spot2Text {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.weatherText {
+  background: #442655d0;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
+  /* background-color: #442655; 
+  color: #9fa093;*/
+}
+
+button{ margin: 5px;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  background: #beb9b2;
+  }
+button:hover{
+  background: #442655;
+  cursor: grabbing;
+}
+
+input.searchBar{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 15px;
+  background: #beb9b2;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerJoin {
+  color: aqua;
+  display: none;
+}
+
+.news,
+.weather,
+.join {
+  margin-top: 10px;
+  height: 200px;
+}
+
+
+
+.spot1Text,
+.spot2Text,
+.spot3Text {
+  border-radius: 5%;
+  background-color: #442655;
+  color: white;
+}
+
+.spot3,
+.spot3Text {
+  display: none;
+  visibility: hidden;
+}
+
+section {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  display: flex;
+}
+
+#header-date {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+section h1 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+}
+
+footer div {
+  margin-top: 10px;
+}
+
+nav button {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #442655;
+}
+
+nav {
+  background-color: #9fa093;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding-left: 0;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #442655;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #beb9b2;
+}
+.footer {
+  text-align: center;
+}
+
+#map a {
+  color: #442655;
+}
+
+#map a:visited {
+  color: #442655;
+}
+
+#primaryNav {
+
+}

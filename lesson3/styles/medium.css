@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+
+    header {
+        display: flex;
+        flex-flow: row;
+    }
+
+    nav h1 {
+        font-family: 'Akronim', cursive;
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    h2 {
+        font-family: 'Lora', serif;
+        margin-left: 10px;
+        padding: 5px 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+}

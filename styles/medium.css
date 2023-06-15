@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+    /* Medium CSS */
+        header,
+        footer {
+            margin: 15px auto;
+            width: 400px;
+            border-radius: 5px 5px 5px 5px;
+        }
+    
+        header {
+            display: flex;
+        }
+    
+        img {
+            margin: 25px 25px 25px 25px;
+            border-radius: 5%;
+        }
+    
+        h1 {
+            padding-top: 40px;
+        }
+    
+    }

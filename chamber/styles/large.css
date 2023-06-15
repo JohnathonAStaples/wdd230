@@ -1,0 +1,137 @@
+@media only screen and (min-width: 67rem) {
+  
+  .large {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .largeLogo {
+    width: 400px;
+  }
+
+  .facebook {
+    visibility: hidden;
+  }
+  .twitch {
+    visibility: hidden;
+  }
+
+  .facebook2 {position: relative;
+    top: -10px;
+    left: -50px;
+    
+    margin-right: 15px;
+    margin-top: 15px;
+    
+  }
+  .twitch2 { position: relative;
+    top: -10px;
+    left: -50px;
+    margin-top: 15px;
+    margin-right: 15px;
+    
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    position: relative;
+    left: -200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    border: none;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  main {
+    grid-template-columns: auto auto auto auto;
+  }
+  
+
+  .containerHero {
+    height: 419px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    grid-area: 1 / 2 / 3 / span 2; 
+  }
+
+  .hero {
+    height: 419px;
+  }
+
+  .containerEvent {margin-top: 10px;
+    grid-area: 1/ 1 / span 1 / span 1;
+  }
+
+  .containerWeather {
+    padding-right: 10px;
+    grid-area: 2/ 1 / span 1 / span 1;
+  }
+
+  .containerNews {
+    grid-area: 3/ 2 / span 2 / span 2;
+  }
+
+  .containerJoin {
+    margin-right: 10px;
+    grid-area: 3/ 1 / span 1 / span 1;
+  }
+
+  .spotlight {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    grid-area: 1/ 4/ 4/ 4;
+    display: flex;
+    flex-direction: column;
+  }
+
+   .spot3 { 
+    height: 211px;
+    visibility: visible;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  .footerLogo {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .spot1Text {
+    
+    left: 50%;
+    top: 15%;
+    
+  }
+  
+  .spot2Text {
+    
+    left: 50%;
+    top: 50%;
+    
+  }
+  
+  .spot3Text {
+    display: block;
+    visibility: visible;  
+    position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+
+}

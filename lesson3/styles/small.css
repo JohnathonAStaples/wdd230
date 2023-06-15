@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS HEX 
+--ash-gray: #9fa093ff;
+--battleship-gray: #8c8d82ff;
+--battleship-gray-2: #949688ff;
+--silver: #beb9b2ff;
+--russian-violet: #442655ff; */
+
+
+/* FONT FAMILY 
+    font-family: 'Akronim', cursive; 
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;*/
+
+body {
+    max-height: max-content;
+    background-color: #442655;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #9fa093;
+    color: #442655;
+}
+
+
+
+.logo {
+    max-width: 100px;
+    border: none;
+    margin: 5px 5px 5px 5px;
+}
+
+.audience {
+    padding: 10px 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#9fa093;
+    list-style-type: none;
+    
+}
+
+.schema {
+    max-width: 325px;
+}
+
+nav h1 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    padding-left: 5px;
+
+}
+
+nav {
+    width: 100%;
+    background-color: #beb9b2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+nav ul li a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #442655;
+}
+
+a:hover {
+    background-color: #9fa093;
+}
+
+
+h2 {
+    color: #9fa093;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    padding: 10px 10px ;
+}
+
+img {
+    margin-left: 50px;
+    border: 5px solid black;
+}
+
+main{
+    text-align: center;
+}
+p { text-align: center;
+    color: #9fa093;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 12px;
+    margin-left: 5px;
+    padding: 0px 50px 10px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #beb9b2;
+}

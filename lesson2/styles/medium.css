@@ -1,0 +1,30 @@
+@media only screen and (min-width:32.5em) {
+
+    main {
+        margin-left: 25px;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    main section:nth-child(1) {
+        max-width: 393.333px;
+    }
+
+    main section:nth-child(2) {
+        margin-right: 25px;
+        justify-content: flex-end;
+    }
+
+    main section:nth-child(3) {
+        margin: 25px 25px 0 0;
+        max-width: none;
+        grid-column: span 2;
+
+    }
+
+    header,
+    footer {
+        max-width: none;
+        margin: 25px 25px 25px 25px;
+    }
+}

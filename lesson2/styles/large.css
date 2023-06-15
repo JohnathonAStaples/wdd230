@@ -1,0 +1,19 @@
+@media only screen and (min-width: 875px) {
+
+    main {
+        margin-left: 25px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section:nth-child(2) {
+        margin-right: 0;
+        max-width: 393.333px;
+    }
+
+    main section:nth-child(3) {
+        margin: 0 25px 0 0;
+        grid-column: auto;
+
+
+    }
+}
