@@ -159,7 +159,6 @@ button{ margin: 5px;
   background: #beb9b2;
   }
 button:hover{
-  background: #442655;
   cursor: grabbing;
 }
 
