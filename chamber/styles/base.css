@@ -26,10 +26,10 @@ header {
   left: -9999px;
 }
 
-.twitch2 {position: absolute;
+.twitch2 {
+  position: absolute;
   top: -9999px;
   left: -9999px;
-
 }
 
 main {
@@ -43,7 +43,7 @@ main input {
 }
 
 .spotlight {
-  grid-area:5/2/5/2; 
+  grid-area: 5/2/5/2;
   border: 15px solid #9fa093;
   margin-top: 10px;
 }
@@ -53,6 +53,7 @@ main input {
   width: 100px;
   height: 100px;
 }
+
 .facebook {
   margin: 10px 0 0 0;
   width: 35px;
@@ -68,7 +69,6 @@ main input {
 }
 
 .containerHero {
-
   color: #442655;
   grid-area: 1 /1 / 1 / 3;
 }
@@ -83,12 +83,9 @@ main input {
   grid-area: 3/1/3/3;
 }
 
-.containerNews{
+.containerNews {
   grid-area: 4/1/4/3;
 }
-
-
-
 
 .event,
 .join,
@@ -150,19 +147,21 @@ main input {
   color: #9fa093;*/
 }
 
-button{ margin: 5px;
+button {
+  margin: 5px;
   border-radius: 50%;
   border: none;
   height: 30px;
   width: 30px;
   outline: none;
   background: #beb9b2;
-  }
-button:hover{
+}
+
+button:hover {
   cursor: grabbing;
 }
 
-input.searchBar{
+input.searchBar {
   border: none;
   outline: none;
   padding: 5px;
@@ -191,8 +190,6 @@ input.searchBar{
   margin-top: 10px;
   height: 200px;
 }
-
-
 
 .spot1Text,
 .spot2Text,
@@ -267,6 +264,7 @@ nav ul li a:hover {
 nav ul {
   display: none;
 }
+
 nav ul.open {
   display: block;
 }
@@ -274,6 +272,7 @@ nav ul.open {
 #hamburgerBtn span:nth-child(1) {
   display: block;
 }
+
 #hamburgerBtn span:nth-child(2) {
   display: none;
 }
@@ -281,6 +280,7 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(1) {
   display: none;
 }
+
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
@@ -291,6 +291,7 @@ footer {
   padding: 10px 10px;
   background-color: #beb9b2;
 }
+
 .footer {
   text-align: center;
 }
@@ -303,47 +304,57 @@ footer {
   color: #442655;
 }
 
-.horseback, .hiking, .visitor {
+.horseback,
+.hiking,
+.visitor {
   margin-top: 20px;
   text-align: center;
 }
 
-.dp1, .dp2, .dp3{
+.dp1,
+.dp2,
+.dp3 {
   text-align: justify;
   text-align: center;
-  
 }
+
 .dp4 {
   margin-top: 10px;
 }
 
-.riding, .hike, .pano {
+.riding,
+.hike,
+.pano {
   margin: auto;
   display: flex;
   margin-top: 10px;
   width: 410px;
 }
-.riding:hover, .hike:hover, .pano:hover {
+
+.riding:hover,
+.hike:hover,
+.pano:hover {
   box-shadow: 0 0 10px #9fa093;
 }
-
 
 .discover {
   display: block;
   text-align: justify;
   text-align: center;
-  
 }
 
 .todo {
   margin-top: 20px;
 }
 
-.link{
+.link {
   color: #9fa093;
 }
+
 .link:visited {
   color: #9fa093;
 }
 
-.discoverBody {color: #9fa093;}
+.discoverBody {
+  color: #9fa093;
+}
