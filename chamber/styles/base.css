@@ -307,18 +307,21 @@ footer {
 .horseback,
 .hiking,
 .visitor {
+  color: #9fa093;
   margin-top: 20px;
   text-align: center;
 }
-
+.dp,
 .dp1,
 .dp2,
 .dp3 {
+  color: #9fa093;
   text-align: justify;
   text-align: center;
 }
 
 .dp4 {
+  color: #9fa093;
   margin-top: 10px;
 }
 
@@ -337,12 +340,19 @@ footer {
   box-shadow: 0 0 10px #9fa093;
 }
 
-.discover {color: #9fa093;
+.discover {
   display: block;
   text-align: justify;
   text-align: center;
 }
-.discover h2 {margin-top: 10px;}
+.discover h2 {
+  color: #9fa093;
+  margin-top: 10px;
+}
+
+.discover h3 {
+  color: #9fa093;
+}
 
 .todo {
   margin-top: 20px;
@@ -355,5 +365,3 @@ footer {
 .link:visited {
   color: #9fa093;
 }
-
-
