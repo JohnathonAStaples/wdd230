@@ -337,7 +337,7 @@ footer {
   box-shadow: 0 0 10px #9fa093;
 }
 
-.discover {
+.discover {color: #9fa093;
   display: block;
   text-align: justify;
   text-align: center;
@@ -356,7 +356,4 @@ footer {
   color: #9fa093;
 }
 
-.discover {
-  color: #9fa093;
-}
 
