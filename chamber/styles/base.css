@@ -303,6 +303,31 @@ footer {
   color: #442655;
 }
 
-#primaryNav {
+.horseback, .hiking, .visitor {
+  margin-top: 20px;
+  text-align: center;
+}
 
+.dp1, .dp2, .dp3{
+  text-align: justify;
+  text-align: center;
+  
+}
+
+.riding, .hike, .pano {
+  margin: auto;
+  display: flex;
+  margin-top: 10px;
+  width: 410px;
+}
+
+.discover {
+  display: block;
+  text-align: justify;
+  text-align: center;
+  
+}
+
+.todo {
+  margin-top: 20px;
 }
