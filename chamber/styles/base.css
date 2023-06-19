@@ -340,8 +340,10 @@ footer {
 }
 
 .link{
-  color: black;
+  color: #9fa093;
 }
 .link:visited {
-  color: black;
+  color: #9fa093;
 }
+
+.discoverBody {color: #9fa093;}
