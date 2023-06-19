@@ -313,6 +313,9 @@ footer {
   text-align: center;
   
 }
+.dp4 {
+  margin-top: 10px;
+}
 
 .riding, .hike, .pano {
   margin: auto;
@@ -320,6 +323,10 @@ footer {
   margin-top: 10px;
   width: 410px;
 }
+.riding:hover, .hike:hover, .pano:hover {
+  box-shadow: 0 0 10px #9fa093;
+}
+
 
 .discover {
   display: block;
@@ -330,4 +337,11 @@ footer {
 
 .todo {
   margin-top: 20px;
+}
+
+.link{
+  color: black;
+}
+.link:visited {
+  color: black;
 }
