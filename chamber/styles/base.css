@@ -365,3 +365,7 @@ footer {
 .link:visited {
   color: #9fa093;
 }
+.submitBtn{
+  border:none;
+  background-color:#9fa093;
+}
