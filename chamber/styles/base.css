@@ -369,3 +369,23 @@ footer {
   border:none;
   background-color:#9fa093;
 }
+
+#fname, #lname, #position, #email, #cell, #business, #membership{
+  display:block;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  color: #442655;
+}
+#businessDescription {
+  border-radius: ;
+  margin: 5px 0 5px 0;
+  display: block;
+  height: 150px;
+  width: 100%;
+}
+
+label {color: #9fa093;}

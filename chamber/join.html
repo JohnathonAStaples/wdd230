@@ -57,13 +57,13 @@
   </header>
   <main class="join-main">
     <form method="get" action="thankyou.html">
-        <label for="fname">First Name: <input id="fname" type="text" name="fname" required=""></label>
-        <label for="lname">Last Name: <input id="lname" type="text" name="lname" required="">
+        <label for="fname">First Name: <input id="fname" type="text" name="fname" required></label>
+        <label for="lname">Last Name: <input id="lname" type="text" name="lname" required>
         </label>
         <label for="position">Business Title: <input id="position" type="text" name="position" pattern="[A-Za-z\s\-]{7,}" title="Not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters."></label>
-        <label for="email">Email: <input id="email" type="email" name="email" required=""></label>
-        <label for="cell">Cell Number:<input id="cell" type="tel" name="cell" required=""></label>
-        <label for="business-name">Business Name: <input id="business" type="text" name="business" required=""> </label>
+        <label for="email">Email: <input id="email" type="email" name="email" required></label>
+        <label for="cell">Cell Number:<input id="cell" type="tel" name="cell" required></label>
+        <label for="business-name">Business Name: <input id="business" type="text" name="business" required> </label>
         <label for="membership">Membership Level:<select id="membership" name="mebership">
             <option value="select">Select Membership</option>
             <option value="np">Non-Profit Membership</option>
@@ -72,9 +72,54 @@
             <option value="gold">Gold Membership</option>
         </select>
         <label for="business-description">Business Description:<textarea id="businessDescription" name="businessDescription"></textarea></label>
-        <input type="hidden" name="time" value="<?=date('Y-m-d H:i:s') ?>">
+        <input type="datetime" id="dateTime" name="date-time" hidden>
         <input class="submitBtn" type="submit" value="Join My Community!">
     </form>
+
+    <div id="memberships-div">
+    
+      <div class="membership-info" id="np">
+          <h4>Basic Membership - Free</h4>
+          <ul class="membership-benefits">
+              <li>Basic directory listing</li>
+              <li>Event announcements</li>
+              <li>Member referral program</li>
+          </ul>
+      </div>
+
+      <div class="membership-info" id="bronze">
+          <h4>Bronce membership - $10/month</h4>
+          <ul class="membership-benefits">
+              <li>Weekly email newsletter</li>
+              <li>Enhanced directory listing</li>
+              <li>Get latest intelligence</li>
+              <li>Plus everything in the Non-Profit</li>
+          </ul>
+      </div>
+
+      <div class="membership-info" id="silver">
+          <h4>Silver membership - $20/month</h4>
+          <ul class="membership-benefits">
+              <li>Access to chamber virtual events</li>
+              <li>Marketing and advertising</li>
+              <li>Access to exclusive benefits</li>
+              <li>Plus everything in the Bronze and Non-Profit</li>
+          </ul>
+      </div>
+
+      <div class="membership-info" id="gold">
+          <h4>Gold membership</h4>
+          <ul class="membership-benefits">
+              <li>Featured business profile</li>
+              <li>Exclusive networking benefits</li>
+              <li>Customized business support</li>
+              <li>Access to discounts</li>
+              <li>Plus everything in the Silver, Bronze, and Non-Profit</li>
+          </ul>
+      </div>
+
+  </div>
+
 
   </main>
   <footer>

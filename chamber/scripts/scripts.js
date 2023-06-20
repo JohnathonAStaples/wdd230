@@ -10,7 +10,7 @@ x.onclick = toggleMenu;
 
 // UK date format
 
-const datefieldUK = document.getElementById("header-date");
+const datefieldUK = document.getElementById("header-date, date");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
