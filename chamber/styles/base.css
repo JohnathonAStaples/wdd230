@@ -368,23 +368,49 @@ footer {
 .submitBtn{
   border:none;
   background-color:#9fa093;
+  color: #442655;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 #fname, #lname, #position, #email, #cell, #business, #membership{
-  display:block;
+  display:flex;
   font-size: 16px;
   margin-top: 5px;
-  margin-bottom: 5px;
   border-radius: 10px;
-  height: 30px;
   width: 100%;
   color: #442655;
 }
 #businessDescription {
  margin: 5px 0 5px 0;
-  display: block;
-  height: 150px;
+ height: 50px;
+  display: flex;
   width: 100%;
 }
 
-label {color: #9fa093;}
+label {
+  color: #9fa093;}
+
+.membership{margin-top: 10px;
+}
+
+
+
+.legend {
+  color: #9fa093;
+  padding: 5px;
+}
+
+.membership-benefits{
+  list-style-type: none;
+  margin: 10px ;
+  color: #9fa093;
+}
+
+.membership-info{color: #beb9b2;}
+
+.thanks{
+  margin-top: 150px;
+  font-size:5rem;
+text-align: center;}

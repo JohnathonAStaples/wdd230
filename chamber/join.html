@@ -55,7 +55,9 @@
     </div>
     <div id="header-date"></div>
   </header>
-  <main class="join-main">
+  <main class="joinNow">
+    <fieldset class="join-main">
+      <legend class="legend">Membership Info</legend>
     <form method="get" action="thankyou.html">
         <label for="fname">First Name: <input id="fname" type="text" name="fname" required></label>
         <label for="lname">Last Name: <input id="lname" type="text" name="lname" required>
@@ -74,10 +76,11 @@
         <label for="business-description">Business Description:<textarea id="businessDescription" name="businessDescription"></textarea></label>
         <input type="datetime" id="dateTime" name="date-time" hidden>
         <input class="submitBtn" type="submit" value="Join My Community!">
-    </form>
+    </form></fieldset>
 
     <div id="memberships-div">
-    
+    <fieldset class="membership">
+      <legend class="legend">Membership Benefits</legend>
       <div class="membership-info" id="np">
           <h4>Basic Membership - Free</h4>
           <ul class="membership-benefits">
@@ -88,7 +91,7 @@
       </div>
 
       <div class="membership-info" id="bronze">
-          <h4>Bronce membership - $10/month</h4>
+          <h4>Bronce membership - $25/month $250/annual</h4>
           <ul class="membership-benefits">
               <li>Weekly email newsletter</li>
               <li>Enhanced directory listing</li>
@@ -98,7 +101,7 @@
       </div>
 
       <div class="membership-info" id="silver">
-          <h4>Silver membership - $20/month</h4>
+          <h4>Silver membership - $50/month $500/annual</h4>
           <ul class="membership-benefits">
               <li>Access to chamber virtual events</li>
               <li>Marketing and advertising</li>
@@ -108,7 +111,7 @@
       </div>
 
       <div class="membership-info" id="gold">
-          <h4>Gold membership</h4>
+          <h4>Gold membership - $100/month $1000/annual</h4>
           <ul class="membership-benefits">
               <li>Featured business profile</li>
               <li>Exclusive networking benefits</li>
@@ -117,7 +120,7 @@
               <li>Plus everything in the Silver, Bronze, and Non-Profit</li>
           </ul>
       </div>
-
+    </fieldset>
   </div>
 
 
