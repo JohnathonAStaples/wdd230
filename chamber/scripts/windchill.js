@@ -34,12 +34,12 @@ function displayResults(weatherData) {
 
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
-  captionDesc.textContent = capitalizeFirstLetter(desc);
+  captionDesc.textContent = capitalize(desc);
 
   windSpeed.textContent = weatherData.wind.speed.toFixed(0);
 }
 
-function capitalizeFirstLetter(str) {
+function capitalize(str) {
   return str.replace(/^(.)|\s+(.)/g, function (match) {
     return match.toUpperCase();
   });
