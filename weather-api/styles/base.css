@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #442655;
+    color: #9fa093;
+    font-size: 1.5rem;
+  }
+  
+  h1 {font-size: 32px;
+    text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+      1px 1px 0#beb9b2 ;
+  }
+  
+  .temp-box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #9fa093;
+    color: #442655;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px#beb9b2 ;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+  
+  figcaption {
+    font-size: 32px;
+  }
+
+  @media only screen and (min-width: 48rem){
+    h1{
+        font-size: 48px
+    }
+  }
