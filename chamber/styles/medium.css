@@ -85,4 +85,9 @@
     display: flex;
     justify-content: center;
   }
+
+  .weatherText{
+    max-width: 95%;
+    width: 300px;
+  }
 }

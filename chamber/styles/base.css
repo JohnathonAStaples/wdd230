@@ -43,7 +43,7 @@ main input {
 }
 
 .spotlight {
-  grid-area: 5/2/5/2;
+  grid-area: 5/3/5/1;
   border: 15px solid #9fa093;
   margin-top: 10px;
 }
@@ -143,8 +143,6 @@ main input {
   border-radius: 30px;
   width: 100%;
   max-width: 300px;
-  /* background-color: #442655; 
-  color: #9fa093;*/
 }
 
 button {

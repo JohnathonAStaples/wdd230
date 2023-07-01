@@ -58,7 +58,10 @@
   main {
     grid-template-columns: auto auto auto auto;
   }
-  
+  .weatherText{
+    transform: translate(-50%, -50%);
+    width: 225px;
+  }
 
   .containerHero {
     height: 419px;
@@ -151,4 +154,6 @@
   
 
 }
+
+
 }
