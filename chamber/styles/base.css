@@ -413,10 +413,10 @@ label {
   font-size:5rem;
 text-align: center;}
 
-.buttons{width: 200px;
-}
+
 .card img {width: 200px;
   height: 200px;
+  margin: auto;
   
 }
 
@@ -424,7 +424,7 @@ text-align: center;}
   text-align: center;
   margin-top: 10px;
   border-style: double;
-  display: flex;
+  display: block;
   max-width: 600px;
 background-color: #9fa093;}
 
@@ -448,3 +448,34 @@ background-color: #9fa093;}
 .par{
   margin-bottom: 10px;
 }
+#cardViewButton, #listViewButton{
+  width: 100px;
+  height: 50px;
+}
+
+.directory-main{
+  border-radius: 5px;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#9fa093;
+    color: #442655;
+    max-width: 300px;
+ 
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards{margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+max-width: 340px;
+color: #442655;}
