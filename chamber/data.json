@@ -1,0 +1,76 @@
+{
+    "businesses" : [
+        {
+            "business" : "The Airplane Restaurant",
+            "address" : "1665 N. Newport Rd.",
+            "phone" : "719-570-7656",
+            "website" : "http://theairplanerestaurant.com",
+            "image" : "images/plane.jpg",
+            "membership" : "gold"
+        },
+        {
+            "business" : "Papa Murphy's | Take 'N' Bake Pizza",
+            "address" : "7669 McLaughlin Rd, Falcon, CO 80831",
+            "phone" : "719-495-7000",
+            "website" : "https://locations.papamurphys.com/co/falcon/7669-mclaughlin-road?utm_source=organic&utm_medium=gmb&utm_campaign=yext",
+            "image" : "images/papamurphy.webp",
+            "membership" : "gold"
+        },
+        {
+            "business" : "Tucanos Brizilian Grill",
+            "address" : "3294 Cinema Point, Colorado Springs, CO 80922",
+            "phone" : "719-597-3800",
+            "website" : "https://www.tucanos.com/location/csp",
+            "image" : "images/tucanos.png",
+            "membership" : "silver"
+        },
+        {
+            "business" : "Smith Farms",
+            "address" : " 8310 Blue Gill Dr, Peyton, CO 80831",
+            "phone" :"719-469-2780",
+            "website" : "https://www.facebook.com/smithsfarmmarket/",
+            "image" : "images/smithfarms.webp",
+            "membership" : "silver"
+        },
+        {
+            "business" : "Big R",
+            "address" : "14155 East HWY, US-24, Falcon, CO 80831",
+            "phone" : "719-749-9136",
+            "website" : "https://bigronline.com/",
+            "image" : "images/bigR.webp",
+            "mLevel" : "free"
+        },
+        {
+            "business" : "Rare Restoration",
+            "address" : "4655 Park Vista Blvd Ste C, Colorado Springs, CO 80918",
+            "phone" : "719-644-6911",
+            "website" : "https://rare-restoration.com/",
+            "image" : "images/rare.webp",
+            "membership" : "bronze"
+        },
+        {
+            "business" : "Old Town Bike Shop",
+            "address" : "426 S Tejon St, Colorado Springs, CO 80903",
+            "phone" : "719-475-8589",
+            "website" : "https://www.oldtownbikeshop.com/",
+            "image" : "images/bike.png",
+            "membership" : "bronze"
+        },
+        {
+            "business" : "Academy Riding Stables",
+            "address" : "4 El Paso Boulevard, Colorado Springs,CO 80904",
+            "phone" : "719-633-5667",
+            "website" : "https://www.academyridingstables.com/",
+            "image" : "images/horseback.webp",
+            "membership" : "gold"
+        },
+        {
+            "business" : "Adventure Amore",
+            "address" : "1851 S Lincoln St",
+            "phone" : "719-000-0000",
+            "website" : "https://adventureamore.com/garden-of-the-gods-wedding-elopement/?gad=1&gclid=Cj0KCQjwnf-kBhCnARIsAFlg490pMsGPXcx-cPdnBJqLfKY8rmaSSIaLByrA9AST9Hfem0uA_rN7G5QaAsI-EALw_wcB",
+            "image" : "images/amore.webp",
+            "membership" : "silver"
+        }
+    ]
+}

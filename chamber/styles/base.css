@@ -412,3 +412,39 @@ label {
   margin-top: 150px;
   font-size:5rem;
 text-align: center;}
+
+.buttons{width: 200px;
+}
+.card img {width: 200px;
+  height: 200px;
+  
+}
+
+.card {
+  text-align: center;
+  margin-top: 10px;
+  border-style: double;
+  display: flex;
+  max-width: 600px;
+background-color: #9fa093;}
+
+.contact-main{
+  margin-top: 10px;
+  border: 5px solid #9fa093;
+  color: #9fa093;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.question {
+  margin-top:10px;
+}
+
+.contact-Info, .office, .contact, .board {
+  margin-top:20px;
+}
+
+.par{
+  margin-bottom: 10px;
+}

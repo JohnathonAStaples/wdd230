@@ -85,3 +85,172 @@ switch (dayName.getDay()) {
     welcomeMessage("");
     break;
 }
+
+const displaySpotlight = (businessess) => {
+  const spotlights = document.querySelector("div.spotlight"); // select the output container element
+
+  const silverOrGoldBusinesses = directory.filter((business) => {
+    return business.mLevel === "Silver" || business.mLevel === "Gold";
+  });
+
+  const randomBusinesses = silverOrGoldBusinesses.slice(0, 3);
+
+  randomBusinesses.forEach((business) => {
+    // Create elements to add to the div.spotlight element
+    let card = document.createElement("section");
+    let h2 = document.createElement("h2");
+    let picture = document.createElement("img");
+    let phone = document.createElement("p");
+    let website = document.createElement("a");
+    let address = document.createElement("p");
+
+    // Build the h2 content out to show the business name
+    h2.textContent = `${business.business}`;
+    phone.textContent = `${business.phone}`;
+    address.textContent = `${business.address}`;
+    website.textContent = `${business.website}`;
+
+    // Build the image by setting all the relevant attribute
+    picture.setAttribute("src", business.image);
+    picture.setAttribute("alt", `Picture of ${business.business}`);
+    website.setAttribute("href", business.website);
+
+    card.setAttribute("class", "sLight");
+
+    // Append the section(card) with the created elements
+    card.appendChild(h2);
+    card.appendChild(website);
+    card.appendChild(phone);
+    card.appendChild(address);
+    card.appendChild(picture);
+
+    spotlights.appendChild(card);
+  });
+};
+
+async function getSpotlightData() {
+  const response = await fetch("data.json");
+  const data = await response.json();
+  //console.table(data.businesses);
+
+  // Only display 3 random businesses that have a business.mLevel value of "Silver" or "Gold"
+  displaySpotlight(
+    data.businesses
+      .filter((business) => {
+        return business.membership === "Silver" || business.membership === "Gold";
+      })
+      .slice(0, 3)
+  );
+}
+
+getSpotlightData();
+const cardViewButton = document.getElementById("cardViewButton");
+const listViewButton = document.getElementById("listViewButton");
+let currentView = "card"; // Initial view mode
+
+cardViewButton.addEventListener("click", () => {
+  if (currentView !== "card") {
+    currentView = "card";
+    getBusinessData();
+  }
+});
+
+listViewButton.addEventListener("click", () => {
+  if (currentView !== "list") {
+    currentView = "list";
+    getBusinessData();
+  }
+});
+
+const createCardView = (business) => {
+  let card = document.createElement("section");
+  let h2 = document.createElement("h2");
+  let image = document.createElement("img");
+  let info = document.createElement("div");
+  let address = document.createElement("p");
+  let phone = document.createElement("p");
+  let website = document.createElement("a");
+
+  h2.textContent = business.business;
+  address.textContent = business.address;
+  phone.textContent = business.phone;
+  website.textContent = business.website;
+
+  website.setAttribute("href", business.website);
+  image.setAttribute("src", business.image);
+  image.setAttribute("alt", `Image of ${business.business}`);
+  image.setAttribute("loading", "lazy");
+  image.setAttribute("width", "200");
+  image.setAttribute("height", "200");
+
+  info.setAttribute("class", "info-box");
+
+  card.setAttribute("class", "card");
+
+  card.appendChild(h2);
+  card.appendChild(image);
+  info.appendChild(address);
+  info.appendChild(phone);
+  card.appendChild(info);
+  info.appendChild(website);
+
+  return card;
+};
+
+const createListView = (business) => {
+  let tableRow = document.createElement("tr");
+
+  let nameCell = document.createElement("td");
+  let addressCell = document.createElement("td");
+  let phoneCell = document.createElement("td");
+  let websiteCell = document.createElement("td");
+
+  nameCell.textContent = business.business;
+  addressCell.textContent = business.address;
+  phoneCell.textContent = business.phone;
+
+  let websiteLink = document.createElement("a");
+  websiteLink.textContent = business.website;
+  websiteLink.setAttribute("href", business.website);
+  websiteLink.target = "_blank"; // Open the link in a new tab
+
+  websiteCell.appendChild(websiteLink);
+
+  tableRow.appendChild(nameCell);
+  tableRow.appendChild(addressCell);
+  tableRow.appendChild(phoneCell);
+  tableRow.appendChild(websiteCell);
+
+  return tableRow;
+};
+
+const displayBusinesses = (businesses, viewMode) => {
+  const container = document.querySelector("div.cards"); // select the output container element
+
+  // Clear the container before rendering the new view
+  container.innerHTML = "";
+
+  businesses.forEach((business) => {
+    let item;
+
+    if (viewMode === "card") {
+      item = createCardView(business);
+    } else {
+      item = createListView(business);
+    }
+
+    container.appendChild(item);
+  });
+
+  // Update CSS based on view mode
+  container.classList.toggle("list-view", viewMode === "list");
+};
+
+async function getBusinessData() {
+  const response = await fetch("data.json");
+  const data = await response.json();
+  //console.table(data.businesses);
+  displayBusinesses(data.businesses, currentView);
+}
+
+getBusinessData();
