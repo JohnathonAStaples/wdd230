@@ -1,0 +1,11 @@
+/*font-family: 'Dancing Script', cursive;
+
+font-family: 'Playfair Display', serif;*/
+
+h1 { font-family: "Dancing Script", cursive;}
+
+header li{
+    list-style-type: none;
+    font-family: "Playfair Display", Bold;
+}
+
