@@ -3,6 +3,8 @@ body {
 }
 
 header, footer {
+    margin-top: 10px;
+    color: #9fa093;
     text-align: center;
 }
 
@@ -23,12 +25,14 @@ header, footer {
     background-color:#9fa093;
     color: #442655;
     max-width: 300px;
+    padding: 10px;
 }
 
 .card {
     margin-top: 10px;
     border: 5px solid #9fa093;
     display: flex;
+    object-fit: cover;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -36,4 +40,4 @@ header, footer {
     color: #9fa093;
 }
 
-h1 {color: #9fa093;}
+
