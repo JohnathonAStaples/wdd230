@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join</title>
-    <meta name="description"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join</title>
+  <meta name="description"
     content="A Fake Chamber of Commerce page for Garden of the Gods which is in Colorado Springs for WDD230 BYU-Idaho">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+  <header>
     <div class="banner">
 
     </div>
@@ -36,9 +37,9 @@
       </section>
       <div class="large">
         <a href="https://www.facebook.com/johnathon.staples.73/"><img class="facebook2" src="images/facebook.png"
-          alt="an icon that will take you to Johnathon Staples facebook page"></a>
-      <a href="https://www.twitch.tv/deepfatfried"><img class="twitch2" src="images/twitch.png"
-          alt="an icon that will take you to Johnathon Staples or DeepFatFried Twitch channel"></a>
+            alt="an icon that will take you to Johnathon Staples facebook page"></a>
+        <a href="https://www.twitch.tv/deepfatfried"><img class="twitch2" src="images/twitch.png"
+            alt="an icon that will take you to Johnathon Staples or DeepFatFried Twitch channel"></a>
 
         <nav>
           <button id="hamburgerBtn">
@@ -58,12 +59,15 @@
   <main class="joinNow">
     <fieldset class="join-main">
       <legend class="legend">Membership Info</legend>
-    <form method="get" action="thankyou.html">
+      <form method="get" action="thankyou.html">
         <label for="fname">First Name: <input id="fname" type="text" name="fname" required></label>
         <label for="lname">Last Name: <input id="lname" type="text" name="lname" required>
         </label>
-        <label for="position">Business Title: <input id="position" type="text" name="position" pattern="[A-Za-z\s\-]{7,}" title="Not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters."></label>
-        <label for="email">Email: <input id="email" type="email" name="email" required></label>
+        <label for="position">Business Title: <input id="position" type="text" name="position"
+            pattern="[A-Za-z\s\-]{7,}"
+            title="Not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters."></label>
+        <label for="email">Email: <input id="email" type="email" name="email" placeholder="youremail@email.com"
+            required></label>
         <label for="cell">Cell Number:<input id="cell" type="tel" name="cell" required></label>
         <label for="business-name">Business Name: <input id="business" type="text" name="business" required> </label>
         <label for="membership">Membership Level:<select id="membership" name="mebership">
@@ -72,56 +76,59 @@
             <option value="bronze">Bronze Membership</option>
             <option value="silver">Silver Membership</option>
             <option value="gold">Gold Membership</option>
-        </select>
-        <label for="business-description">Business Description:<textarea id="businessDescription" name="businessDescription"></textarea></label>
-        <input type="datetime" id="dateTime" name="date-time" hidden>
-        <input class="submitBtn" type="submit" value="Join My Community!">
-    </form></fieldset>
+          </select>
+        </label>
+          <label for="business-description">Business Description:<textarea id="businessDescription"
+              name="businessDescription"></textarea></label>
+          <input type="datetime" id="dateTime" name="date-time" hidden>
+          <input class="submitBtn" type="submit" value="Join My Community!">
+      </form>
+    </fieldset>
 
     <div id="memberships-div">
-    <fieldset class="membership">
-      <legend class="legend">Membership Benefits</legend>
-      <div class="membership-info" id="np">
+      <fieldset class="membership">
+        <legend class="legend">Membership Benefits</legend>
+        <div class="membership-info" id="np">
           <h4>Basic Membership - Free</h4>
           <ul class="membership-benefits">
-              <li>Basic directory listing</li>
-              <li>Event announcements</li>
-              <li>Member referral program</li>
+            <li>Basic directory listing</li>
+            <li>Event announcements</li>
+            <li>Member referral program</li>
           </ul>
-      </div>
+        </div>
 
-      <div class="membership-info" id="bronze">
+        <div class="membership-info" id="bronze">
           <h4>Bronce membership - $25/month $250/annual</h4>
           <ul class="membership-benefits">
-              <li>Weekly email newsletter</li>
-              <li>Enhanced directory listing</li>
-              <li>Get latest intelligence</li>
-              <li>Plus everything in the Non-Profit</li>
+            <li>Weekly email newsletter</li>
+            <li>Enhanced directory listing</li>
+            <li>Get latest intelligence</li>
+            <li>Plus everything in the Non-Profit</li>
           </ul>
-      </div>
+        </div>
 
-      <div class="membership-info" id="silver">
+        <div class="membership-info" id="silver">
           <h4>Silver membership - $50/month $500/annual</h4>
           <ul class="membership-benefits">
-              <li>Access to chamber virtual events</li>
-              <li>Marketing and advertising</li>
-              <li>Access to exclusive benefits</li>
-              <li>Plus everything in the Bronze and Non-Profit</li>
+            <li>Access to chamber virtual events</li>
+            <li>Marketing and advertising</li>
+            <li>Access to exclusive benefits</li>
+            <li>Plus everything in the Bronze and Non-Profit</li>
           </ul>
-      </div>
+        </div>
 
-      <div class="membership-info" id="gold">
+        <div class="membership-info" id="gold">
           <h4>Gold membership - $100/month $1000/annual</h4>
           <ul class="membership-benefits">
-              <li>Featured business profile</li>
-              <li>Exclusive networking benefits</li>
-              <li>Customized business support</li>
-              <li>Access to discounts</li>
-              <li>Plus everything in the Silver, Bronze, and Non-Profit</li>
+            <li>Featured business profile</li>
+            <li>Exclusive networking benefits</li>
+            <li>Customized business support</li>
+            <li>Access to discounts</li>
+            <li>Plus everything in the Silver, Bronze, and Non-Profit</li>
           </ul>
-      </div>
-    </fieldset>
-  </div>
+        </div>
+      </fieldset>
+    </div>
 
 
   </main>
@@ -139,4 +146,5 @@
   </footer>
   <script src="scripts/scripts.js"></script>
 </body>
+
 </html>
