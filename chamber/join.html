@@ -72,7 +72,27 @@
 
         <label for="business-name">Business Name:<input id="business" type="text" name="business" required></label>
 
-        <label for="membership">Membership Level:<select id="membership" name="mebership">
+        <label for="membership-level"
+          >Membership Level: <br>
+          <span class="details">&lt;&#45;&#45;&#45;&#45; See detailed mebership benefits </span>
+          <select id="membership-level" name="membership_level">
+            <option value="select">Please Select Membership</option>
+            <option value="np">NP Membership</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select></label
+        >
+
+        <label for="business-description"
+          >Business Description:
+          <textarea
+            id="business-description"
+            name="business_description"
+          ></textarea>
+        </label>
+
+        <!--<label for="membership">Membership Level:<select id="membership" name="mebership">
             <option value="select">Select Membership</option>
             <option value="np">Non-Profit Membership</option>
             <option value="bronze">Bronze Membership</option>
@@ -82,7 +102,7 @@
         
           <label for="business-description">Business Description:
           <textarea id="businessDescription"
-              name="businessDescription"></textarea></label>
+              name="business_description"></textarea></label>-->
           
               <input type="datetime" id="dateTime" name="date-time" hidden>
           <input class="submitBtn" type="submit" value="Join My Community!">
