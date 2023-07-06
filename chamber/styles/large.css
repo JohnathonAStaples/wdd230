@@ -10,10 +10,14 @@
   }
 
   .facebook {
-    visibility: hidden;
+    position: absolute;
+  top: -9999px;
+  left: -9999px;
   }
   .twitch {
-    visibility: hidden;
+    position: absolute;
+  top: -9999px;
+  left: -9999px;
   }
 
   .facebook2 {position: relative;
