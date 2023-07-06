@@ -7,6 +7,7 @@ header, footer {
 }
 
 .cards {
+    object-fit: cover;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   }
@@ -15,7 +16,6 @@ header, footer {
 
 .info {
     border-radius: 5px;
-    
     margin: 10px auto;
     flex-direction: column;
     justify-content: center;
@@ -35,3 +35,5 @@ header, footer {
     max-width: 340px;
     color: #9fa093;
 }
+
+h1 {color: #9fa093;}
