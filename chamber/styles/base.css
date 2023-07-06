@@ -332,11 +332,7 @@ footer {
   width: 410px;
 }
 
-.riding:hover,
-.hike:hover,
-.pano:hover {
-  box-shadow: 0 0 10px #9fa093;
-}
+
 
 .discover {
   display: block;
