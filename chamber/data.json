@@ -12,7 +12,7 @@
             "business" : "Papa Murphy's | Take 'N' Bake Pizza",
             "address" : "7669 McLaughlin Rd, Falcon, CO 80831",
             "phone" : "719-495-7000",
-            "website" : "https://locations.papamurphys.com/co/falcon/7669-mclaughlin-road?utm_source=organic&utm_medium=gmb&utm_campaign=yext",
+            "website" : "https://locations.papamurphys.com/co/falcon/",
             "image" : "images/papamurphy.webp",
             "membership" : "gold"
         },
@@ -68,7 +68,7 @@
             "business" : "Adventure Amore",
             "address" : "1851 S Lincoln St",
             "phone" : "719-000-0000",
-            "website" : "https://adventureamore.com/garden-of-the-gods-wedding-elopement/?gad=1&gclid=Cj0KCQjwnf-kBhCnARIsAFlg490pMsGPXcx-cPdnBJqLfKY8rmaSSIaLByrA9AST9Hfem0uA_rN7G5QaAsI-EALw_wcB",
+            "website" : "https://adventureamore.com/",
             "image" : "images/amore.webp",
             "membership" : "silver"
         }

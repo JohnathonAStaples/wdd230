@@ -1,11 +1,64 @@
-/*font-family: 'Dancing Script', cursive;
+/* Fonts that will be used
+font-family: 'Dancing Script', cursive;
 
-font-family: 'Playfair Display', serif;*/
+font-family: 'Playfair Display', serif;
+*/
 
-h1 { font-family: "Dancing Script", cursive;}
 
-header li{
+/* Colors That will be used.
+#1e212b Raisin Black
+#4d8b31 Forest Green
+#ffc800 Mikado Yellow
+#ff8427 Orange (wheel)
+#ffffff White
+*/
+
+/* Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .logo{display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Dancing Script", cursive;
+    background-color: #4d8b31;
+    color: #ff8427;
+  }
+
+li{
+    background-color: #ffc800;
+    color: #1e212b;
     list-style-type: none;
     font-family: "Playfair Display", Bold;
 }
+a:visited {
+  color:#1e212b;
+}
+
+a:hover{
+  background-color: #1e212b;
+  color: #ff8427;
+}
+
+
+
+
+body {
+    background-color: #1e212b;
+    color: #ffffff;
+}
+
+h2{
+  background-color: #ffc800;
+  color: #1e212b;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
 
