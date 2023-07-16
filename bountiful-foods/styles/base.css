@@ -83,14 +83,16 @@ body {font-family: "Playfair Display", Bold;
 }
 
 h2 {font-family: "Dancing Script", cursive;
+  padding-left: 5px;
   background-color: #ffc800;
   color: #1e212b;
 }
 
 p {
   font-family: "Playfair Display", Bold;
-  background-color: #4d8b31;
-  color: #ff8427;
+  background-color:  #1e212b;
+  color: #4d8b31;
+  margin: 5px
 }
 
 footer {
