@@ -92,7 +92,7 @@ p {
   font-family: "Playfair Display", Bold;
   background-color:  #4d8b31;
   color: #ffffff;
-  margin: 5px
+  padding: 5px;
 }
 
 footer {
