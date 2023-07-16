@@ -4,7 +4,6 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Playfair Display', serif;
 */
 
-
 /* Colors That will be used.
 #1e212b Raisin Black
 #4d8b31 Forest Green
@@ -15,50 +14,101 @@ font-family: 'Playfair Display', serif;
 
 /* Normalize */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .logo{display: flex;
-    justify-content: center;
-    font-size: 24px;
-    font-family: "Dancing Script", cursive;
-    background-color: #4d8b31;
-    color: #1e212b;
-  }
-
-li{
-    background-color: #ffc800;
-    color: #1e212b;
-    list-style-type: none;
-    font-family: "Playfair Display", Bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  font-family: "Dancing Script", cursive;
+  background-color: #4d8b31;
+  color: #1e212b;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+nav ul li {
+  text-decoration: none;
+  background-color: #ffc800;
+  color: #1e212b;
+  list-style-type: none;
+  font-family: "Playfair Display", Bold;
+}
+
 a:visited {
-  color:#1e212b;
+  color: #1e212b;
 }
 
-a:hover{
+a:hover {
+  display: block;
   background-color: #1e212b;
   color: #ff8427;
 }
 
-
-
-
-body {
-    background-color: #1e212b;
-    color: #ffffff;
+body {font-family: "Playfair Display", Bold;
+  background-color: #1e212b;
+  color: #ffffff;
 }
 
-h2{
+h2 {font-family: "Dancing Script", cursive;
   background-color: #ffc800;
   color: #1e212b;
 }
 
-footer{
-    margin-top: 10px;
-    text-align: center;
+p {
+  font-family: "Playfair Display", Bold;
+  background-color: #4d8b31;
+  color: #1e212b;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
 
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+#copyright {
+  margin-top: 10px;
+}
