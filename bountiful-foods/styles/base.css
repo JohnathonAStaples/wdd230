@@ -123,12 +123,12 @@ footer {
 }
 
 .drink,
-.weather {
+.weather, .att {
   display: flex;
   justify-content: center;
 }
 
-.p1 {
+.p1, .resources {
   text-align: center;
 }
 
