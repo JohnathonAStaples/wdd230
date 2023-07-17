@@ -1,0 +1,29 @@
+@media only screen and (min-width: 65rem) {
+  .logo {
+    flex-direction: row;
+  }
+  nav {
+    margin: auto;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    position: relative;
+    left: -200px;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    border: none;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 0.5rem;
+  }
+  
+}

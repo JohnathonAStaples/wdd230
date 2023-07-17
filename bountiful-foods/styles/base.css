@@ -22,11 +22,14 @@ font-family: 'Playfair Display', serif;
 .logo {
   display: flex;
   justify-content: space-evenly;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Dancing Script", cursive;
   background-color: #4d8b31;
   color: #1e212b;
 }
+
+.logo-img{max-width: 100px;
+max-height: 100px;}
 
 #hamburgerBtn span:nth-child(1) {
   display: block;
@@ -48,7 +51,7 @@ nav button {
   margin: 0.2rem 2vw;
   background-color: transparent;
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
@@ -101,7 +104,12 @@ footer {
   margin-top: 10px;
   text-align: center;
 }
+.drink, .weather {display: flex;
+justify-content: center;}
 
+.p1 {
+  text-align: center;
+}
 .social {
   display: flex;
   justify-content: space-around;
