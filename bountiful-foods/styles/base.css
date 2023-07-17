@@ -28,8 +28,10 @@ font-family: 'Playfair Display', serif;
   color: #1e212b;
 }
 
-.logo-img{max-width: 100px;
-max-height: 100px;}
+.logo-img {
+  max-width: 100px;
+  max-height: 100px;
+}
 
 #hamburgerBtn span:nth-child(1) {
   display: block;
@@ -70,55 +72,107 @@ nav ul li {
   font-family: "Playfair Display", Bold;
 }
 
-a:visited {
+#primaryNav a:link{
+  text-decoration: none;
+}
+
+#primaryNav a:visited {
   color: #1e212b;
 }
 
-a:hover {
+#primaryNav a:hover {
   display: block;
   background-color: #1e212b;
   color: #ff8427;
 }
 
-body {font-family: "Playfair Display", Bold;
+body {
+  font-family: "Playfair Display", Bold;
   background-color: #1e212b;
   color: #ffffff;
 }
 
-h2 {font-family: "Dancing Script", cursive;
-  padding-left: 5px;
+h2 {margin: 10px;
+  border:10px solid #4d8b31;
+  font-family: "Dancing Script", cursive;
+  padding: 5px;
+  background-color: #ffc800;
+  color: #1e212b;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  padding: 5px;
   background-color: #ffc800;
   color: #1e212b;
 }
 
 p {
   font-family: "Playfair Display", Bold;
-  background-color:  #1e212b;
+  background-color: #1e212b;
   color: #ffc800;
   padding: 5px;
 }
 
 footer {
+  background-color: #4d8b31;
   display: flex;
   justify-content: center;
   margin-top: 10px;
   text-align: center;
 }
-.drink, .weather {display: flex;
-justify-content: center;}
+
+.drink,
+.weather {
+  display: flex;
+  justify-content: center;
+}
 
 .p1 {
   text-align: center;
 }
+
+.facebook,
+.insta,
+.linkedin {
+  background-color: #4d8b31;
+  margin: 10px;
+  max-height: 50px;
+}
+
+.facebook:hover, .insta:hover, .linkedin:hover {
+  background-color: #4d8b31;
+  border: 3px solid #ff8427;
+  border-radius: 100% 100%;
+
+}
+
 .social {
   display: flex;
   justify-content: space-around;
 }
 
 .footer {
-  margin-top: 10px;
+  margin: 10px;
 }
 
-#copyright {
-  margin-top: 10px;
+.resources{
+  font-family: "Playfair Display", bold;
+  padding: 5px;
+  background-color: #ff8427;
+  color: #1e212b;
+}
+
+.resources a{
+  color: #1e212b;
+}
+
+.resources a:hover{
+  border: 3px solid #4d8b31;
+}
+
+.resources a:visited{
+  color: #1e212b;
+}
+
 }
