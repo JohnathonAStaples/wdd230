@@ -157,6 +157,7 @@ footer {
 }
 
 .resources{
+  margin: 10px;
   font-family: "Playfair Display", bold;
   padding: 5px;
   background-color: #ff8427;
