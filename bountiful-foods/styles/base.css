@@ -108,6 +108,7 @@ h3 {
 }
 
 p {
+  margin: 10px;
   font-family: "Playfair Display", Bold;
   background-color: #1e212b;
   color: #ffc800;
@@ -154,6 +155,11 @@ footer {
 
 .footer {
   margin: 10px;
+}
+
+#copyright {
+  padding: 10px;
+  background-color: #1e212b;
 }
 
 .resources{
