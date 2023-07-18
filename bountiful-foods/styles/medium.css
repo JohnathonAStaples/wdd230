@@ -20,7 +20,11 @@
       }
     
       .p3 {
-        grid-area:4/0/1/4;
+        grid-area:1/1/1/1;
+      }
+
+      .coast{
+        margin-top: -255px;
       }
       
 }

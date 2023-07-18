@@ -37,16 +37,43 @@
     </div>
   </header>
   <main>
-    <div class="weatherText">
-      <div class="weather1">
-        <h2 class="weather">Weather</h2>
-        <h3><span id="current-temp">35</span></h3>
-        <img id="weather-icon" src="#" alt="weather-icon">
-        <p id="description"></p>
-        <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
-        <p>Wind Chill: <span id="windChill"></span></p>
-      </div>
-    </div>
+        <h2 class="weather">Current Weather</h2>
+        <div class="weather1">
+          <h2>Weather</h2>
+          <h3><span id="current-temp"></span></h3>
+          <img id="weather-icon" src="#" alt="weather-icon">
+            <p id="description"></p>
+            <p>Wind Speed: <span id="windSpeed"></span> MPH</p>
+            <p>Humidity: <span id="humidity"></span></p>
+        </div>
+        <h2 class="weather">3 day Weather forecast</h2>
+        <div id="weatherContainer">
+          <div id="iconsContainer">
+            <div class="icons">
+              <p class="weather1" id="day1"></p>
+              <div class="image"><img src="images/favicon1.png" class="imgClass" id="img1" alt=""</div>
+              <p class="minValues" id="day1Min">Loading....</p>
+              <p class="maxValues" id="day1Max">Loading....</p>
+              <p class="humidity" id="day1Humidity">Loading....</p>
+            </div>
+            <div class="icons">
+              <p class="weather1" id="day2"></p>
+              <div class="image"><img src="images/favicon1.png" class="imgClass" id="img2" alt=""</div>
+              <p class="minValues" id="day2Min">Loading....</p>
+              <p class="maxValues" id="day2Max">Loading....</p>
+              <p class="humidity" id="day2Humidity">Loading....</p>
+            </div>
+            <div class="icons">
+              <p class="weather1" id="day3"></p>
+              <div class="image"><img src="images/favicon1.png" class="imgClass" id="img3" alt=""</div>
+              <p class="minValues" id="day3Min">Loading....</p>
+              <p class="maxValues" id="day3Max">Loading....</p>
+              <p class="humidity" id="day3Humidity">Loading....</p>
+            </div>
+          </div>
+        </div>
+        
+        
     <h2 class="drink">Drink Me</h2>
     <div class="img-div">
       <div class="p1">
@@ -61,6 +88,7 @@
         we have to offer.</p>
     </div>
     </div>
+    <h2 class="coast">The Coast</h2>
     
   </main>
   <footer>

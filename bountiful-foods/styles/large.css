@@ -40,4 +40,7 @@
     max-width: 700px;
     grid-area: 3/2/3/3;
   }
+  .coast{
+    margin-top: 10px;
+  }
 }
