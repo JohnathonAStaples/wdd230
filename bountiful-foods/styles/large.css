@@ -25,5 +25,19 @@
   nav ul li a {
     padding: 0.5rem 1.15rem;
   }
-  
+  .p1{
+    max-width: 700px;
+    grid-area: 1/2/2/3;
+  }
+  .pineapple {
+    width: 700px;
+    height: auto;
+  }
+  .p2{margin-top: -490px;
+    grid-area: 2/2/3/3;
+  }
+  .p3{max-height:100px ;
+    max-width: 700px;
+    grid-area: 3/2/3/3;
+  }
 }

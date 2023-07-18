@@ -108,6 +108,32 @@ h3 {
   color: #1e212b;
 }
 
+.img-div{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px 10px 10px 10px;
+  
+}
+
+.p1 {
+  
+ grid-area:1/2/2/2 ;
+}
+
+.pineapple{
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+}
+.p2 {
+  grid-area:1/1/2/2;
+}
+
+.p3{
+  
+  text-align: center;
+}
+
 p {
   letter-spacing: 0.5px;
   margin: 10px;

@@ -2,4 +2,25 @@
     .logo {
         flex-direction: row-reverse;
     }
+
+   
+      
+      .p1 {
+        
+        grid-area: 3/3/1/4;
+      }
+      
+      .pineapple{
+        margin-right: 10px;
+        width: 250px;
+        height: 250px;
+      }
+      .p2 {
+        grid-area: 1/2/1/2;
+      }
+    
+      .p3 {
+        grid-area:4/0/1/4;
+      }
+      
 }
