@@ -72,7 +72,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?lat=33.158092&lon=-117.3
 .catch(err => alert("Something Went Wrong"))
 
 const d =new Date();
-const weekday = ["Sunday","Monday","Tuesday","Wednsday","Thursday","Friday","Saturday"];
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 function CheckDay(day){
   if(day + d.getDay() > 6){
