@@ -64,7 +64,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?lat=33.158092&lon=-117.3
     document.getElementById("day" +(i+1) + "Humidity").innerHTML ="Humidity" + Number(data.list[i].main.humidity).toFixed(1)
   }
   for (i=0;i<3;i++){
-    document.getElementById("img" + (i+1)).src="https://openweathermap.org/img/wn/" + data.list[i].weather[0].icon + ".png";
+    document.getElementById("img" + (i+1)).src="https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png";
   }
 
 })
