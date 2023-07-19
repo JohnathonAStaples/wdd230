@@ -31,7 +31,31 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main class="fresh-main">
+    <section class="fruit-section">
+      <h1 id="form-head">Make a Fresh Fruit Drink!</h1>
+      
+      <form id="fruitMixForm">
+          <label hidden>Date:<input type="date" name="date" hidden id="date"></label>
+          <div class="client-info">
+              <label for="fname">First Name: <input type="text" name="fname" aria-label="First Name" class="input" id='fname' required></label><br>                                            
+              <label>Email: <input name="email" type="email" id="email" class="input" required></label><br>
+              <label>Phone Number: <input name="phone" type="tel" id="phone" class="input" required></label>
+          </div>
+          <div id="fruit-selector" class="selector">
+              <p>Please Select 3 different fruits:</p>
+          </div>
+          <br>
+          <label class="textarea"><b>Add special requests:</b><textarea name="specialInstruc" cols="110" rows="5" id="specialInstruc" class="input"></textarea></label>   
+          <input type="button" value="Make Your Drink!" class="btn" id="Btn">
+      </form>
+  </section>
+  <section id="fruit-output">
+      <h2 class="fruit-drink">Output</h2>
+      <div id="output">
+          <p class="order">Order Info</p>
+      </div>
+  </section>
   </main>
   <footer>
     <div class="footer">
@@ -52,6 +76,7 @@
       <div id="copyright"></div>
     </div>
   </footer>
+  <script src="scripts/fresh.js"></script>
   <script src="scripts/scripts.js"></script>
 </body>
 

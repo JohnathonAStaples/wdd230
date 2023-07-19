@@ -50,3 +50,5 @@ const msg = `&copy;  ${year}  Bountiful Foods | Johnathon A. Staples | Californi
 const footer = document.getElementById("copyright");
 footer.innerHTML = msg
 
+
+
